@@ -1,33 +1,34 @@
 package org.example.radical;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.QuadCurve;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
-    @Override
+public class Hexagon extends Application {
     public void start(Stage stage) throws IOException {
 
         Group root = new Group();
-        stage.setTitle("Color Example");
-        Rectangle rect = new Rectangle();
-        rect.setX(50);
-        rect.setY(20);
-        rect.setWidth(200);
-        rect.setHeight(250);
-        rect.setEffect(new DropShadow());
-        root.getChildren().add(rect);
-        Scene scene = new Scene(root,300,400, Color.hsb(180, 1, 1));
+        stage.setTitle("QuadCurve Example");
+        QuadCurve c = new QuadCurve();
+        c.setStartX(70);
+        c.setStartY(30);
+        c.setControlX(250);
+        c.setControlY(50);
+        c.setFill(Color.RED);
+        c.setEffect(new DropShadow());
+        c.setEndX(250);
+        c.setEndY(300);
+        root.getChildren().add(c);
+        Scene scene = new Scene(root,300,400);
         stage.setScene(scene);
         stage.show();
-
     }
 
     public static void main(String[] args) {

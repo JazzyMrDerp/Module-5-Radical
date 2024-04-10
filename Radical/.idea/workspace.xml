@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3561b9eb-8fba-409d-9f18-3b1a191844e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/radical/RectangleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/radical/RectangleLinearGradient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/radical/Hexagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/radical/Honeycomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/radical/Polygon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/radical/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/radical/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +46,14 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.HelloApplication.executor": "Run",
+    "Application.Hexagon.executor": "Run",
+    "Application.Polygon.executor": "Run",
     "Application.RectangleBlue.executor": "Run",
     "Application.RectangleExample.executor": "Run",
     "Application.RectangleLinearGradient.executor": "Run",
+    "Application.RectangleRed.executor": "Run",
+    "Application.ShapeExample.executor": "Run",
+    "Application.Shapes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712773097555</updated>
-      <workItem from="1712773098645" duration="1283000" />
+      <workItem from="1712773098645" duration="1934000" />
     </task>
     <servers />
   </component>
